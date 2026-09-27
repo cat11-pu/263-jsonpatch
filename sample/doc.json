@@ -1,0 +1,14 @@
+{
+  "budget": 2,
+  "path_error_code": "E_PATH_MISSING",
+  "index_error_code": "E_INDEX_RANGE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "doc": { "a": { "b": [1, 2] }, "c": 3 }, "pending": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "set", "path": "/a/b/0", "value": 9 },
+    { "id": 2, "kind": "set", "path": "/c", "value": 5 },
+    { "id": 3, "kind": "set", "path": "/a/b/1", "value": 7 },
+    { "id": 4, "kind": "set", "path": "/a/b/0", "value": 4 },
+    { "id": 5, "kind": "set", "path": "/c", "value": 6 }
+  ]
+}
